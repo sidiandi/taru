@@ -1,0 +1,66 @@
+{
+  "_from": "taru",
+  "_id": "taru@0.1.10",
+  "_inBundle": false,
+  "_integrity": "sha512-iSyvZF9mhA0KhkdRYYYcgHOQegRgMqo5k9rhDBxebugFZ9xl0zGIcbRQ+6x65hfdq971RGnht/V9AvuCEPpsJw==",
+  "_location": "/taru",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "taru",
+    "name": "taru",
+    "escapedName": "taru",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/taru/-/taru-0.1.10.tgz",
+  "_shasum": "9cb067350e565cf80b211e5bd08bf99f399d6745",
+  "_spec": "taru",
+  "_where": "C:\\work\\mysyngo\\mysy2",
+  "author": {
+    "name": "https://github.com/sidiandi"
+  },
+  "bugs": {
+    "url": "https://github.com/sidiandi/taru/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async-child-process": "^1.1.1",
+    "commander": "^2.13.0",
+    "console.table": "^0.9.1",
+    "fs-extra": "^5.0.0",
+    "globby": "^7.1.1",
+    "linq": "^3.0.9",
+    "p-map": "^1.2.0",
+    "zip-local": "^0.3.4"
+  },
+  "deprecated": false,
+  "description": "Yet another task runner",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  },
+  "homepage": "https://github.com/sidiandi/taru#readme",
+  "keywords": [
+    "task",
+    "runner"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "taru",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidiandi/taru.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "version": "0.1.11"
+}
